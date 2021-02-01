@@ -1,0 +1,52 @@
+#services-wrapper {
+  width: 100%;
+  display: flex;
+}
+
+#photos {
+  width: 50%;
+  border: 3px solid red;
+};
+
+
+#checkout {
+  width: 242px;
+  border: 5px solid red;
+};
+
+#description {
+  width: 300px;
+  min-width: 30%;
+  border: 1px solid black;
+};
+
+
+#description-template {
+  width: 300px;
+  min-width: 322px;
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 1400px) {
+  #services-wrapper {
+    width: 100%;
+    display: flex;
+  }
+  #photos {
+    width: 40%;
+  };
+  #description {
+    width: 30%;
+    border: 1px solid green;
+  };
+  #description-template {
+    width: 30%;
+    min-width: 322px;
+    border: 1px solid green;
+  };
+
+  #checkout {
+    max-width: 242px;
+    border: 5px solid red;
+  };
+}

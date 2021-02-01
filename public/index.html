@@ -2,41 +2,44 @@
 <html>
 <head>
   <title>Amazon - Blitva FEC</title>
+  <link rel='stylesheet' href='style.css'>
 </head>
 
 <body>
-  <div id='photos'></div>
-  <div id='description'></div>
-  <div id='checkout'></div>
-  <div id='productFeatures'></div>
-  <div id='comparison'></div>
-  <div id='customerQuestions'></div>
-  <div id='customerAlsoBought'></div>
-  <div id='reviews'></div>
+  <div id=services-wrapper>
+    <div id='photos'></div>
+    <div id='description'><div id='description-template'>DESCRIPTION</div></div></div>
+    <div id='checkout'></div>
+    <div id='productFeatures'></div>
+    <div id='comparison'></div>
+    <div id='customerQuestions'></div>
+    <div id='customerAlsoBought'></div>
+    <div id='reviews'></div>
+  </div>
 
   <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
   <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
 
-  <script src='http://localhost:4000/productFeatures_bundle.js'></script>
-  <script src='http://localhost:4001/customerQuestions_bundle.js'></script>
-  <script src='http://localhost:4002/photos_bundle.js'></script>
-  <script src='http://localhost:4003/checkout_bundle.js'></script>
-  <script src='http://localhost:4004/description_bundle.js'></script>
-  <script src='http://localhost:4005/comparison_bundle.js'></script>
-  <script src='http://localhost:4006/reviews_bundle.js'></script>
-  <script src='http://localhost:4007/customerAlsoBought_bundle.js'></script>
+  <script type='text/javascript' src='http://localhost:4000/productFeatures_bundle.js'></script>
+  <script type='text/javascript' src='http://localhost:4001/customerQuestions_bundle.js'></script>
+  <script type='text/javascript' src='http://localhost:4002/photos_bundle.js'></script>
+  <script type='text/javascript' src='http://localhost:4003/checkout_bundle.js'></script>
+  <script type='text/javascript' src='http://localhost:4004/description_bundle.js'></script>
+  <script type='text/javascript' src='http://localhost:4005/comparison_bundle.js'></script>
+  <script type='text/javascript' src='http://localhost:4006/reviews_bundle.js'></script>
+  <script type='text/javascript' src='http://localhost:4007/customerAlsoBought_bundle.js'></script>
 
 
 
   <script>
-    ReactDOM.render(productFeatures, document.getElementById('productFeatures'));
-    ReactDOM.render(customerQuestions, document.getElementById('customerQuestions'));
-    ReactDOM.render(photos, document.getElementById('photos'));
+    // ReactDOM.render(productFeatures, document.getElementById('productFeatures'));
+    // ReactDOM.render(customerQuestions, document.getElementById('customerQuestions'));
+    ReactDOM.render(Photos, document.getElementById('photos'));
     ReactDOM.render(checkout, document.getElementById('checkout'));
-    ReactDOM.render(description, document.getElementById('description'));
-    ReactDOM.render(comparison, document.getElementById('comparison'));
-    ReactDOM.render(reviews, document.getElementById('reviews'));
-    ReactDOM.render(customerAlsoBought, document.getElementById('customerAlsoBought'));
+    // ReactDOM.render(description, document.getElementById('description'));
+    // ReactDOM.render(comparison, document.getElementById('comparison'));
+    // ReactDOM.render(reviews, document.getElementById('reviews'));
+    // ReactDOM.render(customerAlsoBought, document.getElementById('customerAlsoBought'));
   </script>
 </body>
 </html>
