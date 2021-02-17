@@ -4,34 +4,21 @@
 }
 
 #description {
-  width: 25%;
-  border: 2px solid black;
-  margin: 0 1% 0 1%;
-  text-align: center;
-  line-height: 200px;
+  font-family: "Amazon Ember", Arial, sans-serif;
 }
 
-/* #des-template {
-  min-width: 30%;
-} */
+#checkout {
+  margin-left: 1.3em;
+}
 
-/*
+
 @media screen and (max-width: 1400px) {
   #services-wrapper {
     display: flex;
     justify-content: center;
   }
 
-  #photos {
-    width: 50%;
-  }
-
-
   #description {
-    width: 25%;
-    border: 2px solid black;
-    margin: 0 1% 0 1%;
-    text-align: center;
-    line-height: 200px;
+    margin-left: 10%;
   }
-} */
+}
