@@ -1,6 +1,13 @@
-#services-wrapper {
+#flex-row {
   display: flex;
   justify-content: center;
+}
+
+#flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #description {
@@ -8,17 +15,5 @@
 }
 
 #checkout {
-  margin-left: 1.3em;
-}
-
-
-@media screen and (max-width: 1400px) {
-  #services-wrapper {
-    display: flex;
-    justify-content: center;
-  }
-
-  #description {
-    margin-left: 10%;
-  }
+  margin-left: 1.3%;
 }
