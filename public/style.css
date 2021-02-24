@@ -1,3 +1,8 @@
+#navbar {
+  font-family: "Amazon Ember", Arial, sans-serif;
+  margin: 0;
+}
+
 #flex-row {
   display: flex;
   justify-content: center;
